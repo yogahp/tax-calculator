@@ -19,7 +19,7 @@ Bundler.require(*Rails.groups)
 
 Dotenv::Railtie.load
 
-module RailsApiStarterKitProject
+module TaxCalculator
   # Main class of this application
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.

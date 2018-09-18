@@ -13,6 +13,8 @@ CommitMsg:
 
 PreCommit:
   ALL:
+    exclude:
+      - 'db/migrate/*'
     on_warn: fail
 
   AuthorEmail:
@@ -43,7 +45,7 @@ PreCommit:
     enabled: true
 
   RailsBestPractices:
-    enabled: true
+    enabled: false
 
 PrePush:
   Brakeman:

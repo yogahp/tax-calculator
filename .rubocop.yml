@@ -13,4 +13,8 @@ FrozenStringLiteralComment:
 Style/Documentation:
   Enabled: false
 
+Metrics/ClassLength:
+  Exclude:
+    - 'app/controllers/api/v1/taxes_controller.rb'
+
 require: rubocop-rspec
